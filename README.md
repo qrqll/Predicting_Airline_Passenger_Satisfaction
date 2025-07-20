@@ -1,28 +1,30 @@
-# Diabetes Prediction using Naive Bayes
+<h1>Airline Passenger Satisfaction Analysis</h1>
 
-## Overview
-This project analyzes the diabetes dataset of Native Americans from Pima to predict diabetes outcomes. It highlights the importance of various medical indicators such as glucose levels, Body Mass Index (BMI), and age in the prediction process.
+This project analyzes airline passenger data to measure satisfaction and predict customer experience. It focuses on identifying key factors such as service quality, Wi-Fi availability, seat comfort, and entertainment that impact passenger satisfaction.
 
-## Key Findings
-- Data balancing played a significant role in achieving high accuracy.
-- Techniques such as TF-IDF were used to extract key features, helping identify important and distinctive words in the texts.
-- The model's good performance indicates the effectiveness of preprocessing steps (such as removing stop words and stemming) in improving the model's accuracy.
+<h2>Key Findings</h2>
 
-## Methodology
-1. **Data Collection**: Gathered the diabetes dataset from the Pima Indian community.
-2. **Data Preprocessing**:
-   - Data balancing to ensure an even distribution of classes.
-   - Removal of stop words and application of stemming.
-3. **Feature Extraction**: Utilized TF-IDF to extract significant features.
-4. **Model Building**: Built two models using the Naive Bayes classification algorithm.
-5. **Evaluation**: 
-   - The second model achieved an accuracy of 78.65%.
-   - The first model achieved an accuracy of 77.92%.
+•	Best model accuracy: ~82% using classification algorithms.
 
-## Conclusion
-The results illustrate the effectiveness of the Naive Bayes algorithm in predicting diabetes based on medical data, contributing to improved early diagnosis and better treatment decisions.
+•	Ease of booking, Food & Drink, Seat Comfort, and Inflight Service are the main drivers of satisfaction.
 
-## Installation
-To run this project, make sure you have the following libraries installed:
-```bash
-pip install pandas scikit-learn numpy matplotlib seaborn
+•	PCA helped reduce dimensionality while keeping essential features.
+
+
+<h2>Methodology</h2>
+
+	1.	Data Cleaning: Removed duplicates, handled missing values, and converted text to numeric format.
+
+	2.	Exploratory Analysis: Identified major satisfaction factors.
+
+	3.	Feature Engineering: Applied PCA for dimensionality reduction.
+
+	4.	Clustering: Used K-Means for customer segmentation.
+
+	5.	Modeling: Built classification models to predict satisfaction levels.
+<h2>Conclusion</h2>
+
+The analysis provides actionable insights for airlines to improve customer experience, personalize services, and increase loyalty.
+
+<h2>Contact</h2>
+Reham Faisal Alsubhi: rrrham.75@gmail.com
